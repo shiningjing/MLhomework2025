@@ -19,3 +19,10 @@ Transformer模型基于自注意力机制，能够并行处理序列数据，提
 ### 3. TCN-LSTM (Temporal Convolutional Network - Long Short-Term Memory)
 TCN-LSTM模型结合了卷积神经网络（CNN）和LSTM的优点。TCN部分用于提取局部特征，LSTM部分用于捕捉长期依赖关系。在本项目中，TCN-LSTM模型在处理时间序列数据时表现出色，能够同时捕捉局部和全局特征，实现更准确的预测。
 
+##结果展示
+
+### 短期预测与真实曲线对比
+![短期预测与真实曲线对比](TCN-LSTM/TCN-LSTM-96/comparison_5.png)
+
+### 长期预测与真实曲线对比
+![长期预测与真实曲线对比](TCN-LSTM/TCN-LSTM-240/comparison_5.png)
